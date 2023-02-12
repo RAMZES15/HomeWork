@@ -4,24 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
     <main>
-        <form action="">
-            <label for="name">Повне ім'я:</label>
-            <input type="text" id="name"><br>
-            <label for="email">Email:</label>
-            <input type="text" id="email"><br>
-            <label for="password">Пароль:</label>
-            <input type="text" id="password"><br>
-            <label for="passwordagain">Пароль ще раз:</label>
-            <input type="text" id="passwordagain"><br>
-            <label for="sex">Стать:</label>
-            <input type="radio" name="man" id="sex" value="man">
-            <input type="radio" name="woman" id="sex" value="woman"><br>
-            <label for="age">Ваш вік:</label>
-            <input type="number" id="age" min="1" max="100">
+        <form action="#" method="post" >
+            <fieldset>
+                <label for="name">Повне ім'я:</label>
+                <input type="text" id="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br><br>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password"><br><br>
+                <label for="passwordagain">Пароль ще раз:</label>
+                <input type="password" id="passwordagain"><br>
+                <p>Стать:</p>
+                <label for="man">Чоловіча</label>
+                <input type="radio" name="sex" id="man" value="man">
+                <label for="woman">Жіноча</label>
+                <input type="radio" name="sex" id="woman" value="woman"><br><br>
+                <label for="age">Ваш вік:</label>
+                <input type="number" id="age" min="1" max="100"><br><br>
+                <label for="courses">Курс який би ви хотіли пройти:</label>
+                <select name="courses" id="courses">
+                    <option value="">Оберіть один</option>
+                    <option value="Front-End">Front-End</option>
+                    <option value="Back-End">Back-End</option>
+                    <option value="Project Management">Project Management</option>
+                    <option value="QA Manual">QA Manual</option>
+                    <option value="Cooking">Cooking</option>
+                    <option value="guitar play">Guitar play</option>
+                </select>
+            </fieldset>
+            <button type="submit">Відправити</button>
+            <button type="reset">Скинути</button>
         </form>
     </main>
 </body>
