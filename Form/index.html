@@ -11,13 +11,14 @@
         <form action="#" method="post" >
             <fieldset>
                 <label for="name">Повне ім'я:</label>
-                <input type="text" id="name"><br><br>
+                <input type="text" id="name" required><br><br>
                 <label for="email">Email:</label>
-                <input type="email" id="email"><br><br>
-                <label for="password">Пароль:</label>
-                <input type="password" id="password"><br><br>
+                <input type="email" id="email" required><br><br>
+                <label for="password" >Пароль:</label>
+                <input type="password" id="password" required><br><br>
                 <label for="passwordagain">Пароль ще раз:</label>
-                <input type="password" id="passwordagain"><br>
+                <input type="password" id="passwordagain" required><br><br>
+                <label > Ведіть ваш телефон:<input type="tel" name="tel" id="tel" required></label>
                 <p>Стать:</p>
                 <label for="man">Чоловіча</label>
                 <input type="radio" name="sex" id="man" value="man">
@@ -34,20 +35,35 @@
                     <option value="QA Manual">QA Manual</option>
                     <option value="Cooking">Cooking</option>
                     <option value="guitar play">Guitar play</option>
+                </select><br><br>
+                <label for="number">Виберіть декілька чисел:</label><br>
+                <select name="number" id="number" multiple>
+                    <option value="100">100</option>
+                    <option value="6">6</option>
+                    <option value="346">346</option>
+                    <option value="904">904</option>
+                    <option value="478">478</option>
+                    <option value="1043">1043</option>
+                    <option value="Yes">Yes</option>
                 </select>
                 <p>Оберіть навечки які у вас є:</p>
                 <ul>
-                    <li><label ><input type="checkbox" name="HTML" id="HTML" value="HTML">HTML</label></li>
-                    <li><label ><input type="checkbox" name="CSS" id="CSS" value="CSS">CSS</label></li>
-                    <li><label ><input type="checkbox" name="JS" id="JS" value="JS">JS</label></li>
-                    <li><label ><input type="checkbox" name="React" id="React">React</label></li>
-                    <li><label ><input type="checkbox" name="C++" id="C++">C++</label></li>
+                    <li><label ><input type="checkbox" name="skill[]" id="HTML" value="HTML">HTML</label></li>
+                    <li><label ><input type="checkbox" name="skill[]" id="CSS" value="CSS">CSS</label></li>
+                    <li><label ><input type="checkbox" name="skill[]" id="JS" value="JS">JS</label></li>
+                    <li><label ><input type="checkbox" name="skill[]" id="React">React</label></li>
+                    <li><label ><input type="checkbox" name="skill[]" id="C++">C++</label></li>
                 </ul>
-                <label for="color">Ваш облюблений колір:</label>
-                <input type="color" name="color" id="color" value="#FF00FF">
+                <label for="color">Ваш ублюблений колір:</label>
+                <input type="color" name="color" id="color" value="#FF00FF"><br><br>
+                <label for="textarea">Чому ви хочете закінчити курс:</label><br>
+                <textarea name="textarea" id="textarea" cols="40" rows="7" placeholder="Text">
+                </textarea><br><br>
+                <label>Заванатжте своє фото:<input type="file" name="file" id="file" accept="image/*"></label>
             </fieldset>
             <button type="submit">Відправити</button>
             <button type="reset">Скинути</button>
+            <label >Я погоджуюсь ,що я погоджуюсь<input type="checkbox" name="consent" id="consent" required></label>
         </form>
     </main>
 </body>
