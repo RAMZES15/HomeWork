@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0;
+}
+
+header .container {
+    border-bottom: 1px solid #828282;
+}
+
+.container{
+    max-width: 970px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 80px;
+}
+
+h1 {
+    color: black;
+    font-size: 48px;
+    margin: 12px 0 44px 0;
+}
+
+h2 {
+    color: black;
+    font-size: 34px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.white-section{
+    background-color: white;
+    padding: 100px 0 100px 0;
+}
+
+.gray-section {
+    background-color: #F6F6F6;
+    padding: 100px 0 100px 0;
+}
+
+.about-text:not(:last-child) {
+    margin-bottom: 32.5px;
+}
+
+.about-title:first-child {
+    margin-bottom: 45px;
+}
+
+.icon-blok {
+    display: inline-block;
+    width: 169px;
+}
+
+.icon-blok:not(:last-child) {
+    margin-right: 98px;
+}
+
+.star:not(:first-child) {
+    margin-left: 8.5px;
+}
+
+.icon-name{
+    color: #828282;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 25px 0 60px 0;
+    height: 38px;
+}
+
+.work-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.work-title {
+    margin: 14px 0 50px 0;
+}
