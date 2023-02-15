@@ -34,7 +34,7 @@ nav a{
 
 nav a:hover {
     color: black;
-    font-weight: 800;
+    text-shadow: 0px 0px 15px #070707;
 }
 
 h1 {
@@ -86,27 +86,6 @@ p {
     margin-left: 8.5px;
 }
 
-/* ======STAR ANIMATION====== */
-.star-bl {
-    fill: #070707;
-    transition: all 0.2s;
-    cursor: pointer;
-}
-
-.star-gr {
-    fill: #E5E5E5;
-    transition: all 0.2s;
-    cursor: pointer;
-}
-
-.star-bl:hover {
-    fill: #E5E5E5;
-}
-
-.star-gr:hover {
-    fill: #070707;
-}
-/* ======STAR ANIMATION====== */
 .icon-name{
     color: #828282;
     font-size: 14px;
@@ -142,26 +121,6 @@ p {
     margin-bottom: 45px;
 }
 
-.button {
-    background-color: black;
-    font-size: 18px;
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
-    border: 2px solid black;
-    border-radius: 22px;
-    padding: 9px 16px;
-    cursor: pointer;
-    transition: all 1s;
-    text-shadow: #828282;
-    letter-spacing: 1.5px;
-}
-
-.button:hover {
-    background-color: white;
-    color: black;
-}
-
 .footer-p-position {
     margin: 16px 0 68px 0;
 }
@@ -176,3 +135,74 @@ p {
     font-weight: 400;
     color: #828282;
 }
+
+/* ======BUTTOM====== */
+.button {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 22px;
+    padding: 9px 16px;
+    cursor: pointer;
+    transition: all 0.5s;
+    letter-spacing: 1.5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 15px #828282;
+}
+/* ======BUTTOM====== */
+
+/* ======STAR ANIMATION====== */
+.star-bl {
+    fill: #070707;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.star-gr {
+    fill: #E5E5E5;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.star-bl:hover {
+    fill: #E5E5E5;
+}
+
+.star-gr:hover {
+    fill: #070707;
+}
+/* ======STAR ANIMATION====== */
+
+/* ======FOOTER A ANIMATION====== */
+    .footer-img {
+        fill: #070707;
+        transition: all 0.5s;
+        border-radius: 8px;
+    }
+
+    .footer-img:hover {
+        fill: white;
+        box-shadow: 5px 5px 15px #828282 ;
+        background: black;
+    }
+    .footer-img-last {
+        fill: #070707;
+        transition: all 0.5s;
+        border-radius: 50%;
+    }
+
+    .footer-img-last:hover {
+        fill: white;
+        box-shadow: 5px 5px 15px #828282 ;
+        background: black;
+    }
+/* ======FOOTER A ANIMATION====== */
+
+
