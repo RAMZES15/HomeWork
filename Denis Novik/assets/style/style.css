@@ -39,36 +39,34 @@ nav a{
 }
 
 nav a:hover {
-    color: black;
     text-shadow: 0px 0px 15px #828282;
     font-size: 20px;
 }
 
 h1 {
-    color: black;
     font-size: 48px;
     margin: 12px 0 44px 0;
 }
 
 h2 {
-    color: black;
     font-size: 34px;
     text-align: center;
 }
 
 p {
-    color: black;
     font-size: 18px;
     text-align: center;
 }
 
 .white-section{
     background-color: white;
-    padding: 100px 0 100px 0;
 }
 
 .gray-section {
     background-color: #F6F6F6;
+}
+
+.section-size {
     padding: 100px 0 100px 0;
 }
 
@@ -76,9 +74,6 @@ p {
     margin-bottom: 32.5px;
 }
 
-.about-title:first-child {
-    margin-bottom: 45px;
-}
 
 .icon-blok {
     display: inline-block;
@@ -128,20 +123,24 @@ p {
     margin-bottom: 45px;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 .footer-p-position {
     margin: 16px 0 68px 0;
 }
 
 .icon-blok-footer {
     display: inline-block;
-    margin: 40px 25px 60px 25px;
+    margin: 0 25px;
 }
 
 .begs {
     font-size: 14px;
     font-weight: 400;
     color: #828282;
-    margin-bottom: -100px;
+    margin-top: 60px;
 }
 
 /* ======BUTTOM====== */
