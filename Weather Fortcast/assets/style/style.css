@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans Unicode';
+    background-color: #2B81AC;
+    font-size: 0;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+span {
+    font-size: 22px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.--border {
+    border: 2px solid white;
+}
+
+.--inline-block {
+    display: inline-block;
+}
+
+.--box-25 {
+    width: 25%;
+}
+
+.--box-50 {
+    width: 50%;
+}
+
+.--box-100 {
+    width: 100%;
+}
+
+.--center {
+    text-align: center;
+}
+
+.--vertical {
+    vertical-align: middle;
+}
+
+.--box-inside {
+    min-height: 147px;
+    padding-top: 26px;
+}
