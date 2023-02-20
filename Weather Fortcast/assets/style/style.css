@@ -12,10 +12,26 @@ body {
 
 h1 {
     font-size: 21px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon {
+    vertical-align: top;
 }
 
 span {
     font-size: 22px;
+    color: white;
+}
+
+span:nth-of-type(2n) {
+    margin-right: 20px;
 }
 
 .container {
@@ -52,7 +68,79 @@ span {
     vertical-align: middle;
 }
 
-.--box-inside {
-    min-height: 147px;
+.block-weather {
+    margin-bottom: 40px;
+
+}
+
+.block-weather li{
+    transition: all 1s;
     padding-top: 26px;
+    padding-bottom: 27px; 
+}
+
+.block-weather li:nth-child(1) {
+    background-color: #3399CC;
+}
+
+.block-weather li:nth-child(2) {
+    background-color: #33CCCC;
+}
+
+.block-weather li:nth-child(3) {
+    background-color: #996699;
+}
+
+.block-weather li:nth-child(4) {
+    background-color: #C24747;
+}
+
+.block-weather li:nth-child(5) {
+    background-color: #E2674A;
+}
+
+.block-weather li:nth-child(6) {
+    background-color: #FFCC66;
+}
+
+.block-weather li:nth-child(7) {
+    background-color: #99CC99;
+}
+
+.block-weather li:nth-child(8) {
+    background-color: #669999;
+}
+
+.block-weather li:nth-child(9) {
+    background-color: #CC6699;
+}
+
+.block-weather li:nth-child(10) {
+    background-color: #339966;
+}
+
+.block-weather li:nth-child(11) {
+    background-color: #666699;
+}
+
+.block-weather:hover li {
+    opacity: 0.3;
+}
+  
+.block-weather:hover li:hover {
+    opacity: 1;
+    border: 2px solid #ffffff00;
+    padding-top: 16px;
+    padding-bottom: 37px;
+}
+
+.box-header {
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.box-footer {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
 }
