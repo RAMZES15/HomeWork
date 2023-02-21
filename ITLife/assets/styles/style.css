@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'lato';
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 13px;
+    letter-spacing: 5px;
+    padding-left: 7px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.--inline-block {
+ display: inline-block;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.navigation li {
+    vertical-align: middle;
+}
+
+header .navigation li {
+    margin: 28px 0;
+}
+
+header .navigation a {
+    font-size: 20px;
+}
+
+footer .navigation a {
+    font-size: 18px;
+}
+
+footer .navigation {
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+footer {
+    padding-top: 40px;
+}
+
+.color {
+    background: #18B5DC;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 15px;
+    color: #3C3C3C;
+    transition: all 1s;
+}
+
+.navigation a:hover {
+    color: #18B5DC;
+}
+
+.header__icon {
+    vertical-align: middle;
+    margin: 10px 191px 10px 135px ;
+
+}
+
+.main-section {
+    background-color: #F6F6F6;
+    padding: 150px 0;
+}
+
+.title_text {
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.line {
+    height: 4px;
+    width: 45px;
+    background-color: #DDDBDB;
+    margin-bottom: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 19px;
+    color: #3C3C3C;
+    border: 1px solid #3C3C3C;
+    vertical-align: middle;
+    margin-left: 230px;
+    transition: all 1s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #18B5DC;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.text-photo {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text-photo:nth-of-type(2n+1) {
+    font-weight: 700;
+}
+
+.photo {
+    margin-right: 30px;
+}
+
+.photo:first-child {
+    margin-left: 135px;
+}
+
+.photo img {
+    transition: all 1s;
+}
+
+.kostil:hover .links {
+    opacity: 1;
+}
+
+.links {
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.box {
+    height: 270px;
+    width: 270px;
+    background-color: #18B5DC;
+}
+
+.icon {
+    transition: all 1s;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+}
+
+.links-footer{
+    text-align: center;
+}
+
+.links-footer li {
+    display: inline-block;
+    margin: 0 5px 40px 5px;
+}
+
+.footer-icon {
+    width: 43px;
+    height: 42px;
+    transition: all 1s;
+}
+
+footer nav {
+    margin-bottom: 28px;
+}
+
+.links li:nth-child(1) .icon {
+    top: 114px;
+    left: 68px;
+    background-image: url(../img/twitter.svg);
+}
+
+.links li:nth-child(2) .icon {
+    top: 114px;
+    left: 114px;
+    background-image: url(../img/facebook.svg);
+}
+
+.links li:nth-child(3) .icon {
+    top: 114px;
+    left: 160px;
+    background-image: url(../img/instagram.svg);
+}
+
+.links li:nth-child(1) .icon:hover {
+    background-image: url(../img/twitter1.svg);
+}
+
+.links li:nth-child(2) .icon:hover {
+    background-image: url(../img/facebook2.svg);
+}
+
+.links li:nth-child(3) .icon:hover {
+    background-image: url(../img/instagram3.svg);
+}
+
+.links-footer li:nth-child(1) .footer-icon {
+    background-image: url(../img/twitterF.svg);
+}
+
+.links-footer li:nth-child(2) .footer-icon {
+    background-image: url(../img/facebookF.svg);
+}
+
+.links-footer li:nth-child(3) .footer-icon {
+    background-image: url(../img/instagramF.svg);
+}
+
+.links-footer li:nth-child(4) .footer-icon {
+    background-image: url(../img/linkedinF.svg);
+}
+
+.links-footer li:nth-child(5) .footer-icon {
+    background-image: url(../img/telegramF.svg);
+}
+
+.links-footer li:nth-child(1) .footer-icon:hover {
+    background-image: url(../img/twitterF1.svg);
+}
+
+.links-footer li:nth-child(3) .footer-icon:hover {
+    background-image: url(../img/instagramF1.svg);
+}
+
+.links-footer li:nth-child(2) .footer-icon:hover {
+    background-image: url(../img/facebookF1.svg);
+}
+
+.links-footer li:nth-child(4) .footer-icon:hover {
+    background-image: url(../img/linkedinF1.svg);
+}
+
+.links-footer li:nth-child(5) .footer-icon:hover {
+    background-image: url(../img/telegramF1.svg);
+}
