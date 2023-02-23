@@ -99,6 +99,7 @@ ul {
     transition: all 1s;
     display: inline-flex;
     font-family: 'Poppins';
+    max-width: max-content
 }
 
 .btn:hover {
@@ -384,8 +385,7 @@ footer {
 }
 
 .footer__btn {
-    padding: 10px 39px;
-    flex-shrink: 0;
+    padding: 12px 39px;
 }
 
 .icon {
