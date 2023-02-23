@@ -178,7 +178,7 @@ header {
 }
 
 .section1__text {
-    margin-top: 98px;
+    align-self: center;
 }
 
 .section1__title {
@@ -205,6 +205,7 @@ header {
 
 .section2 {
     margin-bottom: 104px;
+    padding-bottom: 74px;
 }
 
 .section2__title {
@@ -230,7 +231,6 @@ header {
 }
 
 .section2__btn {
-    margin-bottom: 74px;
     margin-left: 10px;
 }
 
