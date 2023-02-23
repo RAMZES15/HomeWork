@@ -385,6 +385,7 @@ footer {
 
 .footer__btn {
     padding: 10px 39px;
+    flex-shrink: 0;
 }
 
 .icon {
