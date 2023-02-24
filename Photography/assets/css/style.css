@@ -7,10 +7,11 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
     font-family: 'Delius Unicase', cursive;
     margin-bottom: 80px;
@@ -40,6 +41,7 @@ h2 {
     bottom: 20px;
     color: white;
     z-index: 1;
+    font-size: 1rem;
 }
 
 .photo-name {
@@ -99,7 +101,6 @@ h2 {
     background-color: #E0E0E0;
     width: 40px;
     height: 40px;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,4 +203,40 @@ h2 {
 
 .section3__grid .section__grid-item:nth-of-type(9) {
     grid-column: span 2;
+}
+
+@media (max-width: 420px) {
+    body,html {
+        font-size: 8px;
+    }
+    .section__grid-item {
+        border-radius: 8px;
+    }
+    .--grid {
+        gap: 8px
+    }
+    .photo-name {
+        left: 5px;
+
+    }
+    .photo-date {
+        left: 5px;
+        bottom: 10px;
+    }
+
+    .heart,
+    .dawnload {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        top: 10px;
+    }
+    
+    .heart {
+        left: 10px;
+    }
+
+    .dawnload {
+        right: 10px;
+    }
 }
