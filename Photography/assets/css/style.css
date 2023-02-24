@@ -239,4 +239,16 @@ h2 {
     .dawnload {
         right: 10px;
     }
+
+    .section1 {
+        padding-top: 30px;
+    }
+    
+    .section1, .section2, .section3 {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
 }
