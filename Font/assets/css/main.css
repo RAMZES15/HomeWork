@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+}
+
+html, body {
+    font-family: 'pt_sans', sans-serif;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+section:first-of-type {
+    padding-top: 70px;
+}
+
+section:last-of-type {
+    padding-bottom: 90px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+}
+
+.--d-flex {
+    display: flex;
+}
+
+.header__logo {
+    align-items: center;
+}
+
+.nav-list li:not(:last-of-type) {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.header__leng {
+    font-family: 'Tourney' ,sans-serif;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.header__nav {
+    font-family: 'staatliches', sans-serif;
+    text-transform: uppercase;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'francois', sans-serif;
+    font-size: 36px;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.chapter {
+    font-family: 'farro', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: none;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.bg-text {
+    background-color: #dadada;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: 'pt_sans', sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-family: 'pt_sans', sans-serif;
+    font-style: italic;
+}
+
+.--mb-40 {
+    margin-bottom: 40px;
+}
+
