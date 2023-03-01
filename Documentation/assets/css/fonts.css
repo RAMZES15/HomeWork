@@ -1,0 +1,234 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'farro';
+    src: url('../fonts/farro-light-webfont.woff2') format('woff2'),
+         url('../fonts/farro-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'francois';
+    src: url('../fonts/francoisone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/francoisone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'pt_sans';
+    src: url('../fonts/ptsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ptsans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'pt_sans';
+    src: url('../fonts/ptsans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/ptsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'pt_sans';
+    src: url('../fonts/ptsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ptsans-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'staatliches';
+    src: url('../fonts/staatliches-regular-webfont.woff2') format('woff2'),
+         url('../fonts/staatliches-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/tourney-v8-latin-600.woff2') format('woff2'),
+         url('../fonts/tourney-v8-latin-600.woff') format('woff');
+  } 
+
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook-logo:before {
+    content: "\e900";
+  }
+  .icon-instagram-logo:before {
+    content: "\e901";
+  }
+  .icon-pinterest-logo-black .path1:before {
+    content: "\e902";
+  }
+  .icon-pinterest-logo-black .path2:before {
+    content: "\e903";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path3:before {
+    content: "\e904";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path4:before {
+    content: "\e905";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path5:before {
+    content: "\e906";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path6:before {
+    content: "\e907";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path7:before {
+    content: "\e908";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path8:before {
+    content: "\e909";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path9:before {
+    content: "\e90a";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path10:before {
+    content: "\e90b";
+    margin-left: -4.1669921875em;
+  }
+  .icon-pinterest-logo-black .path11:before {
+    content: "\e90c";
+    margin-left: -4.1669921875em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-pinterest-logo-black .path12:before {
+    content: "\e90d";
+    margin-left: -4.1669921875em;
+  }
+  .icon-saleforse-logo-black .path1:before {
+    content: "\e90e";
+  }
+  .icon-saleforse-logo-black .path2:before {
+    content: "\e90f";
+    margin-left: -1.4287109375em;
+    color: rgb(255, 255, 254);
+  }
+  .icon-saleforse-logo-black .path3:before {
+    content: "\e910";
+    margin-left: -1.4287109375em;
+    color: rgb(255, 255, 254);
+  }
+
+  .grid-item:hover .icon-saleforse-logo-black .path3:before{
+    content: "\e910";
+    color: black;
+  }
+  
+  .icon-shopify-logo-black .path1:before {
+    content: "\e911";
+  }
+  .icon-shopify-logo-black .path2:before {
+    content: "\e912";
+    margin-left: -3.4482421875em;
+    color: rgb(142, 142, 142);
+  }
+  .icon-shopify-logo-black .path3:before {
+    content: "\e913";
+    margin-left: -3.4482421875em;
+    color: rgb(255, 255, 255);
+  }
+
+  .flip-back:hover .icon-saleforse-logo-black .path3:before {
+    content: "\e913";
+    color: black;
+  }
+
+  .icon-shopify-logo-black .path4:before {
+    content: "\e914";
+    margin-left: -3.4482421875em;
+  }
+  .icon-skype-logo-black:before {
+    content: "\e915";
+  }
+  .icon-soundcloud-logo-black:before {
+    content: "\e916";
+  }
+  .icon-wixcom-logo-black .path1:before {
+    content: "\e917";
+  }
+  .icon-wixcom-logo-black .path2:before {
+    content: "\e918";
+    margin-left: -2.94140625em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-wixcom-logo-black .path3:before {
+    content: "\e919";
+    margin-left: -2.94140625em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-wixcom-logo-black .path4:before {
+    content: "\e91a";
+    margin-left: -2.94140625em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-wixcom-logo-black .path5:before {
+    content: "\e91b";
+    margin-left: -2.94140625em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-wixcom-logo-black .path6:before {
+    content: "\e91c";
+    margin-left: -2.94140625em;
+  }
+  .icon-wixcom-logo-black .path7:before {
+    content: "\e91d";
+    margin-left: -2.94140625em;
+  }
+  .icon-wixcom-logo-black .path8:before {
+    content: "\e91e";
+    margin-left: -2.94140625em;
+  }
