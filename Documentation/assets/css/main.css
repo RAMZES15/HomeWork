@@ -19,6 +19,7 @@ html, body {
     font-family: 'pt_sans', sans-serif;
     font-size: 28px;
     line-height: 48px;
+    scroll-padding-top: 90px;
 }
 
 .container {
@@ -30,7 +31,7 @@ html, body {
 header {
     position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.705);
+    background-color: rgb(255, 255, 255);
 }
 
 .header__body {
