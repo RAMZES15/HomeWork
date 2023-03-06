@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 400;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #EFEEF3;
+}
+
+.header__body {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+
+.mini-text {
+    color: #7690A8;
+    margin-bottom: 15px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-box {
+    max-width: 370px;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    transition: all .5s;
+}
+
+.card-box-inside {
+    padding: 11%;
+}
+
+.card-icon {
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: all .5s;
+}
+
+.card-box:hover .card-icon {
+    border: 1px solid rgba(61, 179, 112, 0.1);
+}
+
+.icon {
+    height: 36px;
+    width: 40px;
+    transition: all .5s;
+}
+
+.bg-1 {
+    background: url(../img/megaphone-blue.svg) center no-repeat;
+}
+
+.card-box:hover .bg-1 {
+    background: url(../img/megaphone-green.svg) center no-repeat;
+}
+
+.bg-2 {
+    background: url(../img/building-blue.svg) center no-repeat;
+}
+
+.card-box:hover .bg-2 {
+    background: url(../img/building-green.svg) center no-repeat;
+}
+
+.bg-3 {
+    background: url(../img/phone-blue.svg) center no-repeat;
+}
+
+.card-box:hover .bg-3 {
+    background: url(../img/phone-green.svg) center no-repeat;
+}
+
+/* .card-icon > svg {
+   height: 36px;
+   width: 40px;
+} */
+
+.card-title {
+    font-size: 24px;
+    line-height: 21px;
+    color: #16133D;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #16133D;
+    margin-bottom: 30px;
+}
+
+.card-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+    transition: all 1s;
+}
+
+.card-link:hover {
+    color: #00ff6e;
+}
+
+.card-box:hover {
+    border: 1px solid #3DB370;
+    transform: scale(1.1);
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #16133D;
+    position: relative;
+    bottom: 0vh;
+}
+
+.footer__links {
+    display: flex;
+    gap: 10px;
+}
+
+.links {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFEEF3;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    transition: all .5s;
+}
+
+.links:hover {
+    color: #3DB370;
+}
+
+.footer__logo {
+    margin-bottom: 43px;
+}
+
+.HW {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #3DB370;
+    position: absolute;
+    bottom: 10vh;
+    right: 5vw;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border: 2px solid #E5EAF4;
+    border-radius: 8px;
+    transition: all .5s;
+}
+
+.HW:hover {
+    color: #00ff6e;
+    border: 2px solid #3DB370;
+    transform: scale(1.2);
+}
+
+/* ===============================icon================================ */
+
+/* .icon-color1 {
+    fill: #D1E7FF;
+}
+.icon-color2 {
+    fill: #E8F3FF;
+}
+.icon-color3 {
+    fill: #B9DCFF;
+}
+.icon-color4 {
+    fill: #007FFC;
+}
+
+.icon-color1:hover {
+    fill: #D1E7FF;
+}
+.icon-color2:hover {
+    fill: #E8F3FF;
+}
+.icon-color3:hover {
+    fill: #B9DCFF;
+}
+.card-box:hover .icon-color4 {
+    fill: #52C29D;
+}
+ */
+
+/* ===============================icon================================ */
