@@ -1,0 +1,577 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+html, body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn {
+  border: 1px solid #565656;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #565656;
+  color: white;
+  padding: 9.5px 45px;
+  transition: all 0.5s;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: white;
+  color: #565656;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 135px;
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 768px;
+    padding: 0 34px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 320px;
+    padding: 0 10px;
+  }
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+@media screen and (max-width: 1440px) {
+  .header__body {
+    height: 60px;
+  }
+}
+
+.header-nav {
+  display: flex;
+}
+.header-nav__hamburger {
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .header-nav__hamburger {
+    display: inline-block;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-nav__hamburger {
+    margin-left: 20px;
+  }
+}
+.header-nav__list {
+  display: flex;
+  gap: 42px;
+}
+@media screen and (max-width: 1440px) {
+  .header-nav__list {
+    display: none;
+  }
+}
+.header-nav__link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+}
+.header-nav__search {
+  display: inline-block;
+  margin-left: 84px;
+}
+@media screen and (max-width: 768px) {
+  .header-nav__search {
+    margin-left: 0;
+  }
+}
+
+.intro {
+  padding-bottom: 45px;
+}
+@media screen and (max-width: 1440px) {
+  .intro {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+.intro__bg {
+  background: url(../img/bg-image.png) no-repeat center;
+  background-size: contain;
+  height: 600px;
+}
+@media screen and (max-width: 1440px) {
+  .intro__bg {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro__bg {
+    background-size: cover;
+    height: 500px;
+  }
+}
+.intro__title {
+  padding-top: 100px;
+  width: 770px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+}
+@media screen and (max-width: 1440px) {
+  .intro__title {
+    width: 700px;
+    font-size: 36px;
+    line-height: 50px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding-top: 70px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+.blog {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+@media screen and (max-width: 1440px) {
+  .blog {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+.blog__title {
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .blog__title {
+    text-align: center;
+  }
+}
+.article {
+  display: flex;
+  gap: 30px;
+}
+@media screen and (max-width: 1440px) {
+  .article {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .article {
+    flex-direction: column-reverse;
+  }
+}
+.article:not(:last-child) {
+  margin-bottom: 50px;
+}
+.article:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 768px) {
+  .article:nth-child(2n) {
+    flex-direction: column-reverse;
+  }
+}
+.article__text {
+  align-self: center;
+}
+@media screen and (max-width: 768px) {
+  .article__text {
+    width: 100%;
+  }
+}
+.article__subtitile {
+  color: #7B7B7B;
+  margin-bottom: 30px;
+}
+.article__title {
+  width: 369px;
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 1440px) {
+  .article__title {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .article__title {
+    width: 100%;
+  }
+}
+.article__date {
+  color: #7B7B7B;
+  margin-bottom: 50px;
+}
+.article__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #565656;
+  width: 448px;
+}
+@media screen and (max-width: 1440px) {
+  .article__link {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .article__link {
+    width: 100%;
+  }
+}
+.article__photo img {
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .article__photo {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .article__photo {
+    width: 100%;
+  }
+}
+
+.article-head {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .article-head {
+    flex-direction: column;
+  }
+}
+.article-head__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+@media screen and (max-width: 768px) {
+  .article-head__title {
+    margin-bottom: 10px;
+  }
+}
+.article-head__link {
+  display: inline-block;
+  text-decoration: none;
+  align-self: center;
+  color: #7B7B7B;
+}
+.article-head__link span {
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .article-head__link {
+    align-self: flex-start;
+  }
+}
+
+.posts {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+@media screen and (max-width: 1440px) {
+  .posts {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+.posts__head {
+  margin-bottom: 50px;
+}
+.posts__body {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1440px) {
+  .posts__body {
+    flex-direction: column;
+  }
+}
+.posts__card {
+  width: 370px;
+  flex-direction: column;
+}
+@media screen and (max-width: 1440px) {
+  .posts__card {
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .posts__card:nth-of-type(2n) {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (max-width: 1440px) and (max-width: 768px) {
+  .posts__card:nth-of-type(2n) {
+    flex-direction: column;
+  }
+}
+
+.card {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .card__text-wrapper {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card__text-wrapper {
+    width: 100%;
+  }
+}
+.card__caption {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+.card__photo-name {
+  color: #7B7B7B;
+  font-weight: 400;
+  font-size: 12px;
+}
+.card__photo-date {
+  color: #7B7B7B;
+  font-weight: 400;
+  font-size: 12px;
+}
+.card__photo {
+  margin-bottom: 25px;
+}
+.card__photo img {
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .card__photo {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card__photo {
+    width: 100%;
+  }
+}
+.card__title {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.card__text {
+  color: #565656;
+}
+
+.popular {
+  padding-top: 45px;
+  padding-bottom: 90px;
+}
+@media screen and (max-width: 1440px) {
+  .popular {
+    padding-top: 35px;
+    padding-bottom: 70px;
+  }
+}
+.popular__head {
+  margin-bottom: 50px;
+}
+.popular__body {
+  display: flex;
+  flex-direction: column;
+}
+.popular__card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+@media screen and (max-width: 1440px) {
+  .popular__card-wrapper {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popular__card-wrapper {
+    flex-direction: column;
+  }
+}
+.popular__card {
+  width: 570px;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .popular__card {
+    width: 100%;
+  }
+}
+.popular__info {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1440px) {
+  .popular__info {
+    flex-direction: column;
+  }
+}
+.popular__link {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 23px;
+  color: black;
+  width: 470px;
+}
+.popular__link span {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .popular__link {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .popular__text {
+    align-self: flex-end;
+  }
+}
+.popular__p {
+  width: 470px;
+  font-size: 19px;
+  line-height: 32px;
+  color: #565656;
+}
+.popular__p:not(:last-child) {
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 1440px) {
+  .popular__p {
+    width: 600px;
+    text-align: end;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popular__p {
+    width: 100%;
+    text-align: start;
+  }
+}
+.popular__btn {
+  align-self: center;
+  margin-bottom: 90px;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: #F4F4F4;
+}
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1440px) {
+  .footer__body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1440px) {
+  .footer__contacts {
+    margin-bottom: 50px;
+  }
+}
+.footer__title {
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 30px;
+}
+.footer__contact {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.footer__contact:first-of-type {
+  margin-bottom: 15px;
+}
+.footer__copywritt {
+  font-size: 12px;
+  text-align: center;
+}
+.footer__social {
+  align-self: center;
+}
+@media screen and (max-width: 1440px) {
+  .footer__social {
+    margin-bottom: 40px;
+  }
+}
+
+.social__list {
+  display: flex;
+  gap: 23px;
+}
+
+.link-icon path {
+  fill: #565656;
+  transition: all 1s;
+}
+.link-icon rect {
+  stroke: #565656;
+  transition: all 1s;
+}
+.link-icon:hover rect {
+  fill: #565656;
+}
+.link-icon:hover path {
+  fill: white;
+}/*# sourceMappingURL=index.css.map */

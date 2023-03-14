@@ -1,0 +1,73 @@
+.footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background: #F4F4F4;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 1440px) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width: 1440px) {
+            margin-bottom: 50px;
+        }
+    }
+    &__title {
+        font-family: 'Red Hat Display';
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+        margin-bottom: 30px;
+    }
+    &__contact {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        &:first-of-type {
+            margin-bottom: 15px;
+        }
+    }
+    &__copywritt {
+        font-size: 12px;
+        text-align: center;
+    }
+    &__social {
+        align-self: center;
+        @media screen and (max-width: 1440px) {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.social {
+    &__list {
+        display: flex;
+        gap: 23px;
+    }
+}
+
+.link-icon {
+    & path {
+        fill: #565656;
+        transition: all 1s;
+    }
+    & rect {
+        stroke: #565656;
+        transition: all 1s;
+    }
+    &:hover {
+       
+        & rect {
+            fill: #565656;
+        }
+        & path {
+            fill: white;
+        }
+    }
+}
