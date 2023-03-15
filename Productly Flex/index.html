@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="./asses/css/style.css">
 </head>
 <body>
+    <div id="overlay" class="overlay" onclick="toggle()"></div>
     <header class="header">
         <div class="container">
             <div class="header__body --d-flex">
                 <a class="header__logo" href="#"><img src="./asses/img/Logo.svg" alt="logo"></a>
                 <nav class="header__nav">
-                    <ul class="header__nav-list --d-flex">
+                    <ul id="nav-list" class="header__nav-list --d-flex" onclick="toggle()">
                         <li><a class="header__nav-links link" href="#">Product</a></li>
                         <li><a class="header__nav-links link" href="#">Customers</a></li>
                         <li><a class="header__nav-links link" href="#">Pricing</a></li>
@@ -25,7 +26,13 @@
                 <div class="header__autorization">
                     <a class="btn header__btn" href="#">Sign In</a>
                     <a class="btn header__btn" href="#">Sign Up</a>
+                    <span id="hamburger" class="hamburger" onclick="toggle()">
+                        <span class="hamburger__item"></span>
+                        <span class="hamburger__item"></span>
+                        <span class="hamburger__item"></span>
+                    </span>
                 </div>
+                
             </div>
         </div>
     </header>
@@ -149,5 +156,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        function toggle() {
+            const hamburger = document.getElementById('hamburger')
+            hamburger.classList.toggle('is-act')
+            const nav = document.getElementById('nav-list')
+            nav.classList.toggle('open')
+            const overlay = document.getElementById('overlay')
+            overlay.classList.toggle('show')
+        }
+    </script>
 </body>
 </html>

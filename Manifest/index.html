@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./assets/scss/index.css">
 </head>
 <body>
+    <div id="overlay" class="overlay" onclick="toggle()"></div>
     <header class="header">
         <div class="container">
             <div class="header__body">
                 <div class="header__logo"><img src="./assets/img/Logo.svg" alt="logo"></div>
                 <nav class="header__nav header-nav">
-                    <ul class="header-nav__list">
+                    <ul id="nav-list" class="header-nav__list" onclick="toggle()">
                         <li class="header-nav__item"><a class="header-nav__link" href="#">home</a></li>
                         <li class="header-nav__item"><a class="header-nav__link" href="#">about</a></li>
                         <li class="header-nav__item"><a class="header-nav__link" href="#">works</a></li>
@@ -21,7 +22,11 @@
                         <li class="header-nav__item"><a class="header-nav__link" href="#">contact</a></li>
                     </ul>
                     <a href="#" class="header-nav__search"><img src="./assets/img/search.svg" alt="#"></a>
-                    <span class="header-nav__hamburger"><img src="./assets/img/hamburger.svg" alt="#"></span>
+                    <span id="hamburger" class="header-nav__hamburger hamburger" onclick="toggle()">
+                        <span class="hamburger__item"></span>
+                        <span class="hamburger__item"></span>
+                        <span class="hamburger__item"></span>
+                    </span>
                 </nav>
             </div>
         </div>
@@ -188,5 +193,15 @@
             <div class="footer__copywritt">© Copyright Manifest Theme. Allrights reserved</div>
         </div>
     </footer>
+    <script>
+        function toggle() {
+            const hamburger = document.getElementById('hamburger')
+            hamburger.classList.toggle('is-act')
+            const nav = document.getElementById('nav-list')
+            nav.classList.toggle('open')
+            const overlay = document.getElementById('overlay')
+            overlay.classList.toggle('show')
+        }
+    </script>
 </body>
 </html>

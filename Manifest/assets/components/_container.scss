@@ -2,11 +2,11 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 135px;
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 1439px) {
         max-width: 768px;
         padding: 0 34px;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         max-width: 320px;
         padding: 0 10px;
     }
