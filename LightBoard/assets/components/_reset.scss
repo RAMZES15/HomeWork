@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+html,body {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.body {
+    display: flex;
+}
+.content {
+    width: 100%;
+}

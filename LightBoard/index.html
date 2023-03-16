@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightBoard</title>
+    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="./assets/scss/index.css">
+</head>
+<body>
+    <div class="body">
+        <aside id="aside" class="aside open" onclick="toggle()">
+            <div class="aside__body">
+                <a href="#" class="aside__logo"><img src="./assets/img/logo.svg" alt="logo"><span class="aside__text">LightBoard</span><span class="aside__btn"></span></a>
+                <a href="#" class="aside__dashboard"><span class="icon-dashboard"></span><span class="aside__text">Dashboard</span></a>
+                <div class="aside__apps">
+                    <span class="aside__title aside__text">APPS</span>
+                    <ul class="aside__list">
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-mail"></span><span class="aside__text">Email</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-bubble"></span><span class="aside__text">Chats</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-calendar"></span><span class="aside__text">Calendar</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-news"></span><span class="aside__text">News</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-stack"></span><span class="aside__text">File manager</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-location"></span><span class="aside__text">Leaflet Maps</span></a></li>
+                    </ul>
+                </div>
+                <div class="aside__pages">
+                    <span class="aside__title aside__text">Auth pages</span>
+                    <ul class="aside__list">
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-profile"></span><span class="aside__text">Profile</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-lock"></span><span class="aside__text">Permissions</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-log-out"></span><span class="aside__text">Log Out</span></a></li>
+                    </ul>
+                </div>
+                <div class="aside__user">
+                    <span class="aside__title aside__text">User Interface</span>
+                    <ul class="aside__list">
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-eye"></span><span class="aside__text">Feather</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-wallet"></span><span class="aside__text">Ecommerce</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-lab"></span><span class="aside__text">Components</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-page"></span><span class="aside__text">Pages</span></a></li>
+                        <li class="aside__list-item"><a class="aside__link" href="#"><span class="icon-pen"></span><span class="aside__text">Editor</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="content ">
+            <header class="header">
+                <div class="header__body">
+                    <div class="header__q-panel">
+                        <span class="icon-mail"></span>
+                        <span class="icon-bubble"></span>
+                        <span class="icon-calendar"></span>
+                        <span class="icon-star"></span>
+                    </div>
+                    <div class="header__leng">
+                        <span><img src="./assets/img/lang-icon.svg" alt="lang"></span>
+                        <span>English</span>
+                    </div>
+                    <div class="header__settings">
+                        <span class="icon-change-theme"></span>
+                        <span class="icon-search"></span>
+                        <span class="icon-set"></span>
+                    </div>
+                    <div class="header__avatar">
+                        <span><img src="./assets/img/Avatar.svg" alt="avater"></span>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="section">
+                    <div class="grid">
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                        <div class="grid__item"></div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script>
+        function toggle() {
+            const aside = document.getElementById('aside')
+            aside.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>
