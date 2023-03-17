@@ -80,7 +80,10 @@ h1{
     background-image: url(./CV/open-eyes.png);
 }
 
-
+.list-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 .f {
     display: sub
