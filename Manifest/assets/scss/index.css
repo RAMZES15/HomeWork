@@ -666,4 +666,120 @@ html, body {
 }
 .link-icon:hover path {
   fill: white;
+}
+
+.case-intro {
+  padding-bottom: 45px;
+}
+.case-intro__subtitle {
+  display: inline-block;
+  font-family: "Lato";
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 6px;
+  margin-bottom: 38px;
+}
+@media screen and (max-width: 767px) {
+  .case-intro__subtitle {
+    margin-bottom: 18px;
+  }
+}
+.case-intro__title {
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 767px) {
+  .case-intro__title {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+}
+.case-intro__photo {
+  margin-bottom: 90px;
+}
+@media screen and (max-width: 767px) {
+  .case-intro__photo {
+    margin-bottom: 70px;
+  }
+}
+.case-intro__overview {
+  width: 45%;
+}
+@media screen and (max-width: 1439px) {
+  .case-intro__overview {
+    width: 100%;
+  }
+}
+.case-intro .overview__title {
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+.case-intro .overview__p {
+  color: #565656;
+  font-size: 19px;
+  line-height: 32px;
+}
+.case-intro .overview__p:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.case-works {
+  padding-top: 45px;
+  padding-bottom: 90px;
+}
+@media screen and (max-width: 1439px) {
+  .case-works {
+    padding-top: 35px;
+    padding-bottom: 70px;
+  }
+}
+
+.card-block:not(:first-child) {
+  padding-top: 45px;
+}
+@media screen and (max-width: 1439px) {
+  .card-block:not(:first-child) {
+    padding-top: 35px;
+  }
+}
+.card-block:not(:last-child) {
+  padding-bottom: 45px;
+}
+@media screen and (max-width: 1439px) {
+  .card-block:not(:last-child) {
+    padding-bottom: 35px;
+  }
+}
+.card-block__title {
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .card-block__title {
+    margin-bottom: 40px;
+    font-size: 26px;
+  }
+}
+.card-block__photo {
+  margin-bottom: 20px;
+}
+.card-block__text {
+  color: #565656;
+  font-size: 19px;
+  line-height: 32px;
+}
+@media screen and (max-width: 767px) {
+  .card-block__text {
+    font-size: 16px;
+  }
+}
+.card-block__p-s {
+  margin-bottom: 25px;
 }/*# sourceMappingURL=index.css.map */

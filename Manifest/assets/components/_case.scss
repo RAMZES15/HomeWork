@@ -1,0 +1,101 @@
+.case-intro {
+    padding-bottom: 45px;
+    &__subtitle {
+        display: inline-block;
+        font-family: 'Lato';
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 6px;
+        margin-bottom: 38px;
+        @media screen and (max-width: 767px) {
+            margin-bottom: 18px;
+        }
+    }
+    &__title {
+        font-family: 'Red Hat Display';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        margin-bottom: 70px;
+        @media screen and (max-width: 767px) {
+            font-size: 26px;
+            margin-bottom: 40px;
+        }
+    }
+    &__photo {
+        margin-bottom: 90px;
+        @media screen and (max-width: 767px) {
+            margin-bottom: 70px;
+        }
+    }
+    &__overview {
+        width: 45%;
+        @media screen and (max-width: 1439px) {
+            width: 100%;
+        }
+    }
+    & .overview {
+        &__title {
+            font-family: 'Red Hat Display';
+            font-weight: 600;
+            font-size: 28px;
+            margin-bottom: 50px;
+        }
+        &__p {
+            color: #565656;
+            font-size: 19px;
+            line-height: 32px;
+            &:not(:last-child) {
+                margin-bottom: 35px;
+            }
+        }
+    }
+}
+
+.case-works {
+    padding-top: 45px;
+    padding-bottom: 90px;
+    @media screen and (max-width: 1439px) {
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+}
+
+.card-block {
+    &:not(:first-child) {
+        padding-top: 45px;
+        @media screen and (max-width: 1439px) {
+            padding-top: 35px;
+        }
+    }
+    &:not(:last-child) {
+        padding-bottom: 45px;
+        @media screen and (max-width: 1439px) {
+            padding-bottom: 35px;
+        }
+    }
+    &__title {
+        font-family: 'Red Hat Display';
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 50px;
+        @media screen and (max-width: 767px) {
+            margin-bottom: 40px;
+            font-size: 26px;
+        }
+    }
+    &__photo {
+        margin-bottom: 20px;
+    }
+    &__text {
+        color: #565656;
+        font-size: 19px;
+        line-height: 32px;
+        @media screen and (max-width: 767px) {
+            font-size: 16px;
+        }
+    }
+    &__p-s {
+        margin-bottom: 25px;
+    }
+}

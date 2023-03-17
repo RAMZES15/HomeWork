@@ -208,17 +208,4 @@ html, body {
 .open .aside__btn::before {
   transform: rotate(45deg);
   left: 5px;
-}
-
-.grid {
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 30px;
-  padding: 10px 25px;
-}
-.grid__item {
-  background-color: lightgray;
-  border-radius: 10px;
 }/*# sourceMappingURL=index.css.map */
