@@ -1,0 +1,72 @@
+@keyframes wusa {
+    from {
+        transform: rotateY(0deg) ;
+    }
+    25% {
+        transform: rotateY(20deg);
+    }
+    50% {
+        transform: rotateY(0deg);
+    }
+    75% {
+        transform: rotateY(-20deg);
+    }
+    to {
+        transform: rotateY(0deg) ;
+    }
+}
+
+.card.flipped .path7 {
+    animation: wusa 2s infinite;
+} 
+
+@keyframes star {
+    from {
+        transform: rotateZ(0deg) rotateY(0deg);
+    }
+    25% {
+        transform: rotateZ(1deg) rotateY(10deg);
+    }
+    75% {
+        transform: rotateZ(-1deg) rotateY(-10deg);
+    }
+    to {
+        transform: rotateZ(0deg) rotateY(0deg);
+    }
+}
+
+.card.flipped .path6 {
+    animation: star 3s infinite reverse;
+}
+
+@keyframes shlapa {
+    from {
+        transform: rotateZ(-2deg) rotateY(5deg);
+    }
+    40% {
+        transform: rotateZ(0deg) rotateY(0deg);
+    }
+    80% {
+        transform: rotateZ(-2deg) rotateY(5deg);
+    }
+    to {
+        transform: rotateZ(-2deg) rotateY(0deg);
+    }
+}
+
+.card.flipped .path5 {
+    animation: shlapa 3s infinite;
+}
+
+@keyframes load {
+    from {
+        transform: rotateZ(360deg);
+    }
+    to {
+        transform: rotateZ(0deg);
+    }
+}
+
+.card.flipped .load {
+    animation: load 3s infinite;
+}
